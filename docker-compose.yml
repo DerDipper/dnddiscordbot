@@ -3,4 +3,5 @@ services:
   web:
     build: .
     container_name: discordbot
+    restart: unless-stopped
 
